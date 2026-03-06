@@ -18,4 +18,6 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 //to have a heading with the name of Installation.
 
+  import {test} from "Playwright/tests"
+
 });
